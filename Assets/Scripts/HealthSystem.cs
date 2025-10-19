@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -6,9 +7,9 @@ public class HealthSystem : MonoBehaviour
 {
     [Header("Health")]
     private float health; 
-    [SerializeField] private float maxHealth = 3f;
+    private float maxHealth = 3f;
     public bool canDie = true, canTakeDamage = true, isAlive = true;
-    public AttributesSystem attributes;
+    [NonSerialized] public AttributesSystem attributes;
 
     [Header("SFX")]
     public string damageSFX;

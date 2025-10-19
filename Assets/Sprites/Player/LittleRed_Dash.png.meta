@@ -1,88 +1,88 @@
 fileFormatVersion: 2
-guid: dfb3b04de27fe4b46bf42b83b325186e
+guid: 3861b9859b2ad274e9cfacf4fdf3fa48
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1747642305795064048
-    second: "Sprite-Chap\xE9uzinhoDash_0"
+      213: 8483228762711980111
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_0"
   - first:
-      213: 1170253466804424520
-    second: "Sprite-Chap\xE9uzinhoDash_1"
+      213: 2814865240609996257
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_1"
   - first:
-      213: -4358339991956579566
-    second: "Sprite-Chap\xE9uzinhoDash_2"
+      213: 6704195359961346309
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_2"
   - first:
-      213: -5167899207502195907
-    second: "Sprite-Chap\xE9uzinhoDash_3"
+      213: 3597838727668857854
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_3"
   - first:
-      213: -7444810676506152388
-    second: "Sprite-Chap\xE9uzinhoDash_4"
+      213: 93070909837499839
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_4"
   - first:
-      213: -7321108245265827020
-    second: "Sprite-Chap\xE9uzinhoDash_5"
+      213: -1923760978699196323
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_5"
   - first:
-      213: 1645528299097407660
-    second: "Sprite-Chap\xE9uzinhoDash_6"
+      213: 5563498410455627064
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_6"
   - first:
-      213: -2039915433648419212
-    second: "Sprite-Chap\xE9uzinhoDash_7"
+      213: -6008989477574764880
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_7"
   - first:
-      213: -7100891096612815561
-    second: "Sprite-Chap\xE9uzinhoDash_8"
+      213: -8435558729275728063
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_8"
   - first:
-      213: 1430160202656027101
-    second: "Sprite-Chap\xE9uzinhoDash_9"
+      213: 4193995104157503297
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_9"
   - first:
-      213: -3908038466439824521
-    second: "Sprite-Chap\xE9uzinhoDash_10"
+      213: 5387705436459122503
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_10"
   - first:
-      213: 6678134885061731573
-    second: "Sprite-Chap\xE9uzinhoDash_11"
+      213: -9108731748161481822
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_11"
   - first:
-      213: -7736700182954274993
-    second: "Sprite-Chap\xE9uzinhoDash_12"
+      213: -8821714378900521017
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_12"
   - first:
-      213: -7929762315048642485
-    second: "Sprite-Chap\xE9uzinhoDash_13"
+      213: 3738716484674644455
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_13"
   - first:
-      213: 5767464937501256737
-    second: "Sprite-Chap\xE9uzinhoDash_14"
+      213: 8103820775353900306
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_14"
   - first:
-      213: 2011909086162158780
-    second: "Sprite-Chap\xE9uzinhoDash_15"
+      213: 2131026135789920920
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_15"
   - first:
-      213: -4454769129435398271
-    second: "Sprite-Chap\xE9uzinhoDash_16"
+      213: -9185557402646031648
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_16"
   - first:
-      213: -1651106737347211508
-    second: "Sprite-Chap\xE9uzinhoDash_17"
+      213: 3106164102500494975
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_17"
   - first:
-      213: 2617333569919103208
-    second: "Sprite-Chap\xE9uzinhoDash_18"
+      213: 8286917309702368251
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_18"
   - first:
-      213: -6252478808438248104
-    second: "Sprite-Chap\xE9uzinhoDash_19"
+      213: 4973582247950817681
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_19"
   - first:
-      213: 1844792246618753020
-    second: "Sprite-Chap\xE9uzinhoDash_20"
+      213: 4866352483515515111
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_20"
   - first:
-      213: 8889020296570019266
-    second: "Sprite-Chap\xE9uzinhoDash_21"
+      213: 6267010370522675078
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_21"
   - first:
-      213: -3908167142271772476
-    second: "Sprite-Chap\xE9uzinhoDash_22"
+      213: -8707398794474485195
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_22"
   - first:
-      213: 7644122649142384595
-    second: "Sprite-Chap\xE9uzinhoDash_23"
+      213: -8729606381419393712
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_23"
   - first:
-      213: 8645750617466293799
-    second: "Sprite-Chap\xE9uzinhoDash_24"
+      213: -144666083647687455
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_24"
   - first:
-      213: -8458152222583274410
-    second: "Sprite-Chap\xE9uzinhoDash_25"
+      213: 1619949368155906434
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_25"
   - first:
-      213: 360633843564336312
-    second: "Sprite-Chap\xE9uzinhoDash_26"
+      213: 2432159294128921766
+    second: "Sprite-CHAP\xC9UZINHODASH (1)_26"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -183,7 +183,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -193,8 +193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39c95fa06533ccf4d859220caaa63597
-      internalID: 846670602
+      spriteID: e4bc5a1b4e73b334ba6b11ccf6411ed2
+      internalID: -2033833566
       vertices: []
       indices: 
       edges: []
@@ -203,9 +203,9 @@ TextureImporter:
       name: LittleRed_Dash_1
       rect:
         serializedVersion: 2
-        x: 46
+        x: 64
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -215,8 +215,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a6b99cbfc1dbaa47b7613a2b41e2fb8
-      internalID: 1577373730
+      spriteID: 6f37cd70cdee3d447a95be6a4e997687
+      internalID: 1182174877
       vertices: []
       indices: 
       edges: []
@@ -225,9 +225,9 @@ TextureImporter:
       name: LittleRed_Dash_2
       rect:
         serializedVersion: 2
-        x: 92
+        x: 128
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -237,8 +237,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 374d48080f125bc4fa7aac3dc0aeaede
-      internalID: 1417588296
+      spriteID: 976ce1b2e237c314383f53b28c482e21
+      internalID: -1343684524
       vertices: []
       indices: 
       edges: []
@@ -247,9 +247,9 @@ TextureImporter:
       name: LittleRed_Dash_3
       rect:
         serializedVersion: 2
-        x: 138
+        x: 192
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -259,8 +259,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28a5da44adbe92e45906ccde91074c8b
-      internalID: 1382617416
+      spriteID: b2b7e0b6b95f02a4394870b9331e0c55
+      internalID: 954606712
       vertices: []
       indices: 
       edges: []
@@ -269,9 +269,9 @@ TextureImporter:
       name: LittleRed_Dash_4
       rect:
         serializedVersion: 2
-        x: 184
+        x: 256
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -281,8 +281,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d07fb32974ec6b842b2ea41a371cb45d
-      internalID: 166484391
+      spriteID: b5d73fbad8e6aed468113f1ae528c757
+      internalID: -1044050270
       vertices: []
       indices: 
       edges: []
@@ -291,9 +291,9 @@ TextureImporter:
       name: LittleRed_Dash_5
       rect:
         serializedVersion: 2
-        x: 230
+        x: 320
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -303,8 +303,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aef1221099341144e948443fb88542cd
-      internalID: -1613280346
+      spriteID: ed65b579efde6484791ed2a9867d084f
+      internalID: 1412377963
       vertices: []
       indices: 
       edges: []
@@ -313,9 +313,9 @@ TextureImporter:
       name: LittleRed_Dash_6
       rect:
         serializedVersion: 2
-        x: 276
+        x: 384
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -325,8 +325,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 955d65f79be93c548aa8e6b27ad54f32
-      internalID: -1144303501
+      spriteID: d8c20035b01e49043a0f0f34ac25e8a7
+      internalID: 1527331215
       vertices: []
       indices: 
       edges: []
@@ -335,9 +335,9 @@ TextureImporter:
       name: LittleRed_Dash_7
       rect:
         serializedVersion: 2
-        x: 322
+        x: 448
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -347,8 +347,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef469b751aeabd84486355644d2e2734
-      internalID: -1672974521
+      spriteID: 8f529adaf4bd96648b0544436356d646
+      internalID: 750456577
       vertices: []
       indices: 
       edges: []
@@ -357,9 +357,9 @@ TextureImporter:
       name: LittleRed_Dash_8
       rect:
         serializedVersion: 2
-        x: 368
+        x: 512
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -369,8 +369,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9098a67f4ddb120428ae37ce416bc060
-      internalID: 453647735
+      spriteID: 1e042d85fe15086408c58959a875945d
+      internalID: 415861080
       vertices: []
       indices: 
       edges: []
@@ -379,9 +379,9 @@ TextureImporter:
       name: LittleRed_Dash_9
       rect:
         serializedVersion: 2
-        x: 414
+        x: 576
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -391,8 +391,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 324e2ffb958ab00449d9c72ff1f35b31
-      internalID: 1371141109
+      spriteID: b674b767ca54f6748afffe835699ff54
+      internalID: 668859622
       vertices: []
       indices: 
       edges: []
@@ -401,9 +401,9 @@ TextureImporter:
       name: LittleRed_Dash_10
       rect:
         serializedVersion: 2
-        x: 460
+        x: 640
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -413,8 +413,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8edcc764abd24bc4d90f99be7e6a7036
-      internalID: -1950380788
+      spriteID: b68b63c2bdc28fa46bd239afb9786e0c
+      internalID: 2088623217
       vertices: []
       indices: 
       edges: []
@@ -423,9 +423,9 @@ TextureImporter:
       name: LittleRed_Dash_11
       rect:
         serializedVersion: 2
-        x: 506
+        x: 704
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -435,8 +435,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91638757aa38b534cbf7e8f09952b867
-      internalID: -1750660342
+      spriteID: 9d7494cace6e1eb4e8f33a652c32112f
+      internalID: 985027293
       vertices: []
       indices: 
       edges: []
@@ -445,9 +445,9 @@ TextureImporter:
       name: LittleRed_Dash_12
       rect:
         serializedVersion: 2
-        x: 552
+        x: 768
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -457,8 +457,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7edcfbf8ab7ca23408d95ca5edf7efe6
-      internalID: 1954733175
+      spriteID: 05cf08b97aa0cf844994c71684451c15
+      internalID: 1454295835
       vertices: []
       indices: 
       edges: []
@@ -467,9 +467,9 @@ TextureImporter:
       name: LittleRed_Dash_13
       rect:
         serializedVersion: 2
-        x: 598
+        x: 832
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -479,8 +479,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d057a2f233391048b00b86f9b78ea90
-      internalID: -1781819869
+      spriteID: d4fd6779866a6594685d8262395d3c83
+      internalID: -1668363108
       vertices: []
       indices: 
       edges: []
@@ -489,9 +489,9 @@ TextureImporter:
       name: LittleRed_Dash_14
       rect:
         serializedVersion: 2
-        x: 644
+        x: 896
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -501,8 +501,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26a8a3f165818dd479f155f222ae4d1f
-      internalID: 733757581
+      spriteID: 8778235c7ae154c4bb9590705cd7c4f9
+      internalID: -2051205843
       vertices: []
       indices: 
       edges: []
@@ -511,9 +511,9 @@ TextureImporter:
       name: LittleRed_Dash_15
       rect:
         serializedVersion: 2
-        x: 690
+        x: 960
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -523,8 +523,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cd8a9595559cc949a8eee688c939625
-      internalID: 758490488
+      spriteID: 5b108af911099e547947d4d8d5d5eb90
+      internalID: 1761741206
       vertices: []
       indices: 
       edges: []
@@ -533,9 +533,9 @@ TextureImporter:
       name: LittleRed_Dash_16
       rect:
         serializedVersion: 2
-        x: 736
+        x: 1024
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -545,8 +545,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bc5b0c4a82d0b7498b3c8585ef60d3a
-      internalID: -1416689067
+      spriteID: 212322725bee56647b5b8dffb84398a6
+      internalID: 89094175
       vertices: []
       indices: 
       edges: []
@@ -555,9 +555,9 @@ TextureImporter:
       name: LittleRed_Dash_17
       rect:
         serializedVersion: 2
-        x: 782
+        x: 1088
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -567,8 +567,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d331fc965c8e0c4a9fc91ec66960676
-      internalID: -391431338
+      spriteID: 20b46ca4b90ebac40814060bb2145483
+      internalID: 1910280322
       vertices: []
       indices: 
       edges: []
@@ -577,9 +577,9 @@ TextureImporter:
       name: LittleRed_Dash_18
       rect:
         serializedVersion: 2
-        x: 828
+        x: 1152
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -589,8 +589,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed51148c9c92bf242b710311181caa51
-      internalID: -1278250820
+      spriteID: dc4677596e3d81c4c88ca28ea3ea8124
+      internalID: 1006782521
       vertices: []
       indices: 
       edges: []
@@ -599,9 +599,9 @@ TextureImporter:
       name: LittleRed_Dash_19
       rect:
         serializedVersion: 2
-        x: 874
+        x: 1216
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -611,8 +611,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77863c28fc46c5342835481ffd18bc45
-      internalID: -1478798687
+      spriteID: f0bf361dbdc3b6140bf34b2db6254dad
+      internalID: 782271491
       vertices: []
       indices: 
       edges: []
@@ -621,9 +621,9 @@ TextureImporter:
       name: LittleRed_Dash_20
       rect:
         serializedVersion: 2
-        x: 920
+        x: 1280
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -633,8 +633,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 962de8f544011fe40b8871c2fbedff4d
-      internalID: -2062154826
+      spriteID: b278887faf35ccd4bb9d2477bc630b83
+      internalID: -1312001367
       vertices: []
       indices: 
       edges: []
@@ -643,9 +643,9 @@ TextureImporter:
       name: LittleRed_Dash_21
       rect:
         serializedVersion: 2
-        x: 966
+        x: 1344
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -655,8 +655,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa6f63fce2881724e8971d4b4df1d862
-      internalID: -150262545
+      spriteID: 2f4d83a64dfa6a4489f35c67024220c6
+      internalID: 2026022694
       vertices: []
       indices: 
       edges: []
@@ -665,9 +665,9 @@ TextureImporter:
       name: LittleRed_Dash_22
       rect:
         serializedVersion: 2
-        x: 1012
+        x: 1408
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -677,8 +677,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9f63017ba6789440918484ca9f31f1a
-      internalID: 275145387
+      spriteID: 7c7ca2ae95074db4daa506cb3bb02644
+      internalID: 1159361080
       vertices: []
       indices: 
       edges: []
@@ -687,9 +687,9 @@ TextureImporter:
       name: LittleRed_Dash_23
       rect:
         serializedVersion: 2
-        x: 1058
+        x: 1472
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -699,8 +699,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b8570b934948074381c07a4f83788f4
-      internalID: -362252960
+      spriteID: 86e0ee11edcc1004db8072987fe0c8be
+      internalID: 260028336
       vertices: []
       indices: 
       edges: []
@@ -709,9 +709,9 @@ TextureImporter:
       name: LittleRed_Dash_24
       rect:
         serializedVersion: 2
-        x: 1104
+        x: 1536
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -721,8 +721,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9f51aad77ec8e448a29cf4cd2d59d92
-      internalID: -1348992474
+      spriteID: 72e4c11826a4be04c9fea120124954ae
+      internalID: 199439140
       vertices: []
       indices: 
       edges: []
@@ -731,9 +731,9 @@ TextureImporter:
       name: LittleRed_Dash_25
       rect:
         serializedVersion: 2
-        x: 1150
+        x: 1600
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -743,8 +743,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b97e2c2cacd1554d884a21fed782971
-      internalID: 1686182286
+      spriteID: f7c52a147b41a56459bddf54283f2bde
+      internalID: -308856465
       vertices: []
       indices: 
       edges: []
@@ -753,9 +753,9 @@ TextureImporter:
       name: LittleRed_Dash_26
       rect:
         serializedVersion: 2
-        x: 1196
+        x: 1664
         y: 0
-        width: 46
+        width: 64
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -765,8 +765,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c9d10c1372c7bf459d373fc405c2db1
-      internalID: -1658947042
+      spriteID: 23721da1d73a31b4fb4c5eed0da50d1b
+      internalID: -1779112972
       vertices: []
       indices: 
       edges: []
@@ -775,7 +775,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 11dc976960a64d648a40a79924c3acbd
+    spriteID: a2dad66a772e3bd47b392240a940c8c8
     internalID: 0
     vertices: []
     indices: 
@@ -785,35 +785,35 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":27.0,"y":1.0},"gridSpriteSize":{"x":46.0,"y":36.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":36.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      LittleRed_Dash_0: 846670602
-      LittleRed_Dash_1: 1577373730
-      LittleRed_Dash_10: -1950380788
-      LittleRed_Dash_11: -1750660342
-      LittleRed_Dash_12: 1954733175
-      LittleRed_Dash_13: -1781819869
-      LittleRed_Dash_14: 733757581
-      LittleRed_Dash_15: 758490488
-      LittleRed_Dash_16: -1416689067
-      LittleRed_Dash_17: -391431338
-      LittleRed_Dash_18: -1278250820
-      LittleRed_Dash_19: -1478798687
-      LittleRed_Dash_2: 1417588296
-      LittleRed_Dash_20: -2062154826
-      LittleRed_Dash_21: -150262545
-      LittleRed_Dash_22: 275145387
-      LittleRed_Dash_23: -362252960
-      LittleRed_Dash_24: -1348992474
-      LittleRed_Dash_25: 1686182286
-      LittleRed_Dash_26: -1658947042
-      LittleRed_Dash_3: 1382617416
-      LittleRed_Dash_4: 166484391
-      LittleRed_Dash_5: -1613280346
-      LittleRed_Dash_6: -1144303501
-      LittleRed_Dash_7: -1672974521
-      LittleRed_Dash_8: 453647735
-      LittleRed_Dash_9: 1371141109
+      LittleRed_Dash_0: -2033833566
+      LittleRed_Dash_1: 1182174877
+      LittleRed_Dash_10: 2088623217
+      LittleRed_Dash_11: 985027293
+      LittleRed_Dash_12: 1454295835
+      LittleRed_Dash_13: -1668363108
+      LittleRed_Dash_14: -2051205843
+      LittleRed_Dash_15: 1761741206
+      LittleRed_Dash_16: 89094175
+      LittleRed_Dash_17: 1910280322
+      LittleRed_Dash_18: 1006782521
+      LittleRed_Dash_19: 782271491
+      LittleRed_Dash_2: -1343684524
+      LittleRed_Dash_20: -1312001367
+      LittleRed_Dash_21: 2026022694
+      LittleRed_Dash_22: 1159361080
+      LittleRed_Dash_23: 260028336
+      LittleRed_Dash_24: 199439140
+      LittleRed_Dash_25: -308856465
+      LittleRed_Dash_26: -1779112972
+      LittleRed_Dash_3: 954606712
+      LittleRed_Dash_4: -1044050270
+      LittleRed_Dash_5: 1412377963
+      LittleRed_Dash_6: 1527331215
+      LittleRed_Dash_7: 750456577
+      LittleRed_Dash_8: 415861080
+      LittleRed_Dash_9: 668859622
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -4,6 +4,7 @@ public class AttributesSystem : MonoBehaviour
 {
     public ScalableAttribute maxHealth;
     public ScalableAttribute moveSpeed;
+    public ScalableAttribute dashSpeed;
     public ScalableAttribute attackDamage;
 
     public void ApplyBaseUpgrade(ScalableAttribute attribute, float amount)

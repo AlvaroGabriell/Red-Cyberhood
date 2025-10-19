@@ -6,7 +6,16 @@ public class EnemyBehaviour : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            collision.gameObject.transform.position = Vector3.zero;
+            if (collision.gameObject.GetComponent<HealthSystem>().canTakeDamage == true) collision.gameObject.transform.position = Vector3.zero;
+            //collision.GetComponent<HealthSystem>().TakeDamage(1);
+        }
+    }
+
+    void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            if (collision.gameObject.GetComponent<HealthSystem>().canTakeDamage == true) collision.gameObject.transform.position = Vector3.zero;
             //collision.GetComponent<HealthSystem>().TakeDamage(1);
         }
     }

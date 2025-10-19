@@ -1,61 +1,61 @@
 fileFormatVersion: 2
-guid: 734a0c895ed00cb40a4c18dc76481f68
+guid: 7c6bea1e620a2cf428fe6344e869287b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3612772201922568983
-    second: "Sprite-Chap\xE9uzinhoRun_0"
+      213: 8798279122322837268
+    second: "Sprite-CHAP\xC9UZINHORUN (1)_0"
   - first:
-      213: 3764416564289080623
-    second: "Sprite-Chap\xE9uzinhoRun_1"
+      213: 1831193493317786088
+    second: "Sprite-CHAP\xC9UZINHORUN (1)_1"
   - first:
-      213: 6533393567019547221
-    second: "Sprite-Chap\xE9uzinhoRun_2"
+      213: -1593765840934121654
+    second: "Sprite-CHAP\xC9UZINHORUN (1)_2"
   - first:
-      213: -3933881792718066749
-    second: "Sprite-Chap\xE9uzinhoRun_3"
+      213: -5841822948223446614
+    second: "Sprite-CHAP\xC9UZINHORUN (1)_3"
   - first:
-      213: -3452697438605523480
-    second: "Sprite-Chap\xE9uzinhoRun_4"
+      213: 2328749636244125393
+    second: "Sprite-CHAP\xC9UZINHORUN (1)_4"
   - first:
-      213: 5518174601969695570
-    second: "Sprite-Chap\xE9uzinhoRun_5"
+      213: 5822357831202241253
+    second: "Sprite-CHAP\xC9UZINHORUN (1)_5"
   - first:
-      213: 666644230265915572
-    second: "Sprite-Chap\xE9uzinhoRun_6"
+      213: 2044148083910602858
+    second: "Sprite-CHAP\xC9UZINHORUN (1)_6"
   - first:
-      213: 5885961247407412859
-    second: "Sprite-Chap\xE9uzinhoRun_7"
+      213: -2387664665640117345
+    second: "Sprite-CHAP\xC9UZINHORUN (1)_7"
   - first:
-      213: -8047174045874240050
-    second: "Sprite-Chap\xE9uzinhoRun_8"
+      213: -3330770963483022935
+    second: "Sprite-CHAP\xC9UZINHORUN (1)_8"
   - first:
-      213: 88256354444216716
-    second: "Sprite-Chap\xE9uzinhoRun_9"
+      213: -2877623755523869350
+    second: "Sprite-CHAP\xC9UZINHORUN (1)_9"
   - first:
-      213: 7406244674416621877
-    second: "Sprite-Chap\xE9uzinhoRun_10"
+      213: -1754492287136699048
+    second: "Sprite-CHAP\xC9UZINHORUN (1)_10"
   - first:
-      213: 7178847041746062162
-    second: "Sprite-Chap\xE9uzinhoRun_11"
+      213: 536206477539925442
+    second: "Sprite-CHAP\xC9UZINHORUN (1)_11"
   - first:
-      213: -7089787834371956577
-    second: "Sprite-Chap\xE9uzinhoRun_12"
+      213: -218417205639436374
+    second: "Sprite-CHAP\xC9UZINHORUN (1)_12"
   - first:
-      213: 9040111118431038957
-    second: "Sprite-Chap\xE9uzinhoRun_13"
+      213: 3807510868921940440
+    second: "Sprite-CHAP\xC9UZINHORUN (1)_13"
   - first:
-      213: 5440770722441892190
-    second: "Sprite-Chap\xE9uzinhoRun_14"
+      213: -6589415138367821505
+    second: "Sprite-CHAP\xC9UZINHORUN (1)_14"
   - first:
-      213: 191591876859600743
-    second: "Sprite-Chap\xE9uzinhoRun_15"
+      213: -123450915215095448
+    second: "Sprite-CHAP\xC9UZINHORUN (1)_15"
   - first:
-      213: -4953710911256714266
-    second: "Sprite-Chap\xE9uzinhoRun_16"
+      213: 5699823528265609962
+    second: "Sprite-CHAP\xC9UZINHORUN (1)_16"
   - first:
-      213: 2996261499055851221
-    second: "Sprite-Chap\xE9uzinhoRun_17"
+      213: 671775462942371500
+    second: "Sprite-CHAP\xC9UZINHORUN (1)_17"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -151,397 +151,397 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Sprite-Chap\xE9uzinhoRun_0"
+      name: LittleRed_Walk_0
       rect:
         serializedVersion: 2
-        x: 9
+        x: 0
         y: 0
-        width: 27
+        width: 64
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9ecdff9d2dadcddc0800000000000000
-      internalID: -3612772201922568983
+      spriteID: ddf7d6f722b133b4fba766ec68ba75d5
+      internalID: 284135654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sprite-Chap\xE9uzinhoRun_1"
+      name: LittleRed_Walk_1
       rect:
         serializedVersion: 2
-        x: 50
+        x: 64
         y: 0
-        width: 33
+        width: 64
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f2d0c05abe4ed3430800000000000000
-      internalID: 3764416564289080623
+      spriteID: a629c65fe2ed68540879c01c6e27ed4f
+      internalID: 1208519242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sprite-Chap\xE9uzinhoRun_2"
+      name: LittleRed_Walk_2
       rect:
         serializedVersion: 2
-        x: 105
+        x: 128
         y: 0
-        width: 27
+        width: 64
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 55ab50475d64baa50800000000000000
-      internalID: 6533393567019547221
+      spriteID: c6f36bdff8b2af048887b5d79120acb5
+      internalID: 902397514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sprite-Chap\xE9uzinhoRun_3"
+      name: LittleRed_Walk_3
       rect:
         serializedVersion: 2
-        x: 149
+        x: 192
         y: 0
-        width: 27
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3cba9a42a5b0869c0800000000000000
-      internalID: -3933881792718066749
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sprite-Chap\xE9uzinhoRun_4"
-      rect:
-        serializedVersion: 2
-        x: 189
-        y: 0
-        width: 34
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8e5440709fd8510d0800000000000000
-      internalID: -3452697438605523480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sprite-Chap\xE9uzinhoRun_5"
-      rect:
-        serializedVersion: 2
-        x: 245
-        y: 0
-        width: 27
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 25b7cfe509e749c40800000000000000
-      internalID: 5518174601969695570
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sprite-Chap\xE9uzinhoRun_6"
-      rect:
-        serializedVersion: 2
-        x: 289
-        y: 0
-        width: 27
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b840983565604900800000000000000
-      internalID: 666644230265915572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sprite-Chap\xE9uzinhoRun_7"
-      rect:
-        serializedVersion: 2
-        x: 329
-        y: 0
-        width: 34
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b761f61c1922fa150800000000000000
-      internalID: 5885961247407412859
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sprite-Chap\xE9uzinhoRun_8"
-      rect:
-        serializedVersion: 2
-        x: 385
-        y: 0
-        width: 27
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ec54ced47d1b25090800000000000000
-      internalID: -8047174045874240050
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sprite-Chap\xE9uzinhoRun_9"
-      rect:
-        serializedVersion: 2
-        x: 429
-        y: 0
-        width: 27
+        width: 64
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c8981dfcfac893100800000000000000
-      internalID: 88256354444216716
+      spriteID: a2cf12452083f1c459d62a1e20c952e8
+      internalID: -1669658317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sprite-Chap\xE9uzinhoRun_10"
+      name: LittleRed_Walk_4
       rect:
         serializedVersion: 2
-        x: 469
+        x: 256
         y: 0
-        width: 34
+        width: 64
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5393b3a9a4448c660800000000000000
-      internalID: 7406244674416621877
+      spriteID: e9fd261e4bb06234ea7f7b37b08ff1f7
+      internalID: 969925215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sprite-Chap\xE9uzinhoRun_11"
+      name: LittleRed_Walk_5
       rect:
         serializedVersion: 2
-        x: 525
+        x: 320
         y: 0
-        width: 27
+        width: 64
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 25b432c695360a360800000000000000
-      internalID: 7178847041746062162
+      spriteID: dddcfc64d1c71b549acfd7de2f352d4d
+      internalID: -179298645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sprite-Chap\xE9uzinhoRun_12"
+      name: LittleRed_Walk_6
       rect:
         serializedVersion: 2
-        x: 569
+        x: 384
         y: 0
-        width: 27
-        height: 35
+        width: 64
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f90af5727830c9d90800000000000000
-      internalID: -7089787834371956577
+      spriteID: c050634f22f8ea844807bd86a06567bd
+      internalID: -425051984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sprite-Chap\xE9uzinhoRun_13"
+      name: LittleRed_Walk_7
       rect:
         serializedVersion: 2
-        x: 609
+        x: 448
         y: 0
-        width: 34
-        height: 35
+        width: 64
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ded24286a2de47d70800000000000000
-      internalID: 9040111118431038957
+      spriteID: 88464a30fcfe7d44c9763019033ad054
+      internalID: 1219127051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sprite-Chap\xE9uzinhoRun_14"
+      name: LittleRed_Walk_8
       rect:
         serializedVersion: 2
-        x: 665
+        x: 512
         y: 0
-        width: 27
-        height: 35
+        width: 64
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e519e774520818b40800000000000000
-      internalID: 5440770722441892190
+      spriteID: e5c6b9fb84ae3274cba6af7d64642592
+      internalID: -27399868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sprite-Chap\xE9uzinhoRun_15"
+      name: LittleRed_Walk_9
       rect:
         serializedVersion: 2
-        x: 709
+        x: 576
         y: 0
-        width: 27
-        height: 35
+        width: 64
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 76f11120ccba8a200800000000000000
-      internalID: 191591876859600743
+      spriteID: db97358412082b947bf6cb3c8c52ae27
+      internalID: -1678830869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sprite-Chap\xE9uzinhoRun_16"
+      name: LittleRed_Walk_10
       rect:
         serializedVersion: 2
-        x: 749
+        x: 640
         y: 0
-        width: 34
-        height: 35
+        width: 64
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6e3219e0c22e04bb0800000000000000
-      internalID: -4953710911256714266
+      spriteID: 14dcfe9a9a9aa174ca47be252d1e9252
+      internalID: 930733450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sprite-Chap\xE9uzinhoRun_17"
+      name: LittleRed_Walk_11
       rect:
         serializedVersion: 2
-        x: 805
+        x: 704
         y: 0
-        width: 27
-        height: 35
+        width: 64
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5d6476165fbd49920800000000000000
-      internalID: 2996261499055851221
+      spriteID: 6e05ccf5f40556848b51fc1f719d76aa
+      internalID: 953957830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleRed_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a1029f82bed0143a00ce848d3bf6ea
+      internalID: -1397987039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleRed_Walk_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76eb36c4868e7a47bf429f49ef1e9be
+      internalID: -43987044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleRed_Walk_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 64
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f273bbe8b33924bae3de421469ae99
+      internalID: -61122017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleRed_Walk_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771edc267dc8fcc43a6ab5804e712b2a
+      internalID: 2018922407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleRed_Walk_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 64
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e3022c74a33124c8689b989f27753d
+      internalID: -1366539407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleRed_Walk_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 64
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5b9fce07bf6354bb5fd53423c2c018
+      internalID: 146146316
       vertices: []
       indices: 
       edges: []
@@ -550,7 +550,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 964927cec3ecb3e49821ba9cda6a6366
     internalID: 0
     vertices: []
     indices: 
@@ -558,26 +558,28 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":36.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      "Sprite-Chap\xE9uzinhoRun_0": -3612772201922568983
-      "Sprite-Chap\xE9uzinhoRun_1": 3764416564289080623
-      "Sprite-Chap\xE9uzinhoRun_10": 7406244674416621877
-      "Sprite-Chap\xE9uzinhoRun_11": 7178847041746062162
-      "Sprite-Chap\xE9uzinhoRun_12": -7089787834371956577
-      "Sprite-Chap\xE9uzinhoRun_13": 9040111118431038957
-      "Sprite-Chap\xE9uzinhoRun_14": 5440770722441892190
-      "Sprite-Chap\xE9uzinhoRun_15": 191591876859600743
-      "Sprite-Chap\xE9uzinhoRun_16": -4953710911256714266
-      "Sprite-Chap\xE9uzinhoRun_17": 2996261499055851221
-      "Sprite-Chap\xE9uzinhoRun_2": 6533393567019547221
-      "Sprite-Chap\xE9uzinhoRun_3": -3933881792718066749
-      "Sprite-Chap\xE9uzinhoRun_4": -3452697438605523480
-      "Sprite-Chap\xE9uzinhoRun_5": 5518174601969695570
-      "Sprite-Chap\xE9uzinhoRun_6": 666644230265915572
-      "Sprite-Chap\xE9uzinhoRun_7": 5885961247407412859
-      "Sprite-Chap\xE9uzinhoRun_8": -8047174045874240050
-      "Sprite-Chap\xE9uzinhoRun_9": 88256354444216716
+      LittleRed_Walk_0: 284135654
+      LittleRed_Walk_1: 1208519242
+      LittleRed_Walk_10: 930733450
+      LittleRed_Walk_11: 953957830
+      LittleRed_Walk_12: -1397987039
+      LittleRed_Walk_13: -43987044
+      LittleRed_Walk_14: -61122017
+      LittleRed_Walk_15: 2018922407
+      LittleRed_Walk_16: -1366539407
+      LittleRed_Walk_17: 146146316
+      LittleRed_Walk_2: 902397514
+      LittleRed_Walk_3: -1669658317
+      LittleRed_Walk_4: 969925215
+      LittleRed_Walk_5: -179298645
+      LittleRed_Walk_6: -425051984
+      LittleRed_Walk_7: 1219127051
+      LittleRed_Walk_8: -27399868
+      LittleRed_Walk_9: -1678830869
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

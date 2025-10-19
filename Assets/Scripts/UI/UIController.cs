@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -122,10 +123,7 @@ public class UIController : MonoBehaviour
     public void OnMainMenu()
     {
         GameController.Instance.ResumeGame();
-        SceneManager.UnloadSceneAsync("Principal");
-        SceneManager.LoadScene("Principal", LoadSceneMode.Additive);
-        CloseAllMenus();
-        GameController.Instance.StartGame();
+        StartCoroutine(ReloadScene());
     }
     public void OnBack()
     {
@@ -137,6 +135,17 @@ public class UIController : MonoBehaviour
         else if (SettingsMenu.activeSelf) OnBack();
         else if (PauseMenu.activeSelf) OnContinue();
         else OnPause();
+    }
+
+    private IEnumerator ReloadScene()
+    {
+        yield return SceneManager.UnloadSceneAsync("Principal");
+
+        var load = SceneManager.LoadSceneAsync("Principal", LoadSceneMode.Additive);
+        yield return load;
+
+        CloseAllMenus();
+        GameController.Instance.StartGame();
     }
     
     // ----------------- Settings Menu -----------------

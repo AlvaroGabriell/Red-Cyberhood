@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 30022c4c90d0f7348a36ec9d30e7a4c3
+guid: 511d9d2faa9a3af4883c528873b87950
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -17,6 +17,36 @@ TextureImporter:
   - first:
       213: -8839054807932090054
     second: "Sprite-Chap\xE9uzinhoIdle_4"
+  - first:
+      213: 6660488130050915321
+    second: "Sprite-Chap\xE9uzinhoIdle_5"
+  - first:
+      213: 6713535541862142505
+    second: "Sprite-Chap\xE9uzinhoIdle_6"
+  - first:
+      213: -2001004991551910678
+    second: "Sprite-Chap\xE9uzinhoIdle_7"
+  - first:
+      213: -7820943716659340629
+    second: "Sprite-Chap\xE9uzinhoIdle_8"
+  - first:
+      213: -2827524979488199155
+    second: "Sprite-Chap\xE9uzinhoIdle_9"
+  - first:
+      213: 1483614340479514905
+    second: "Sprite-Chap\xE9uzinhoIdle_10"
+  - first:
+      213: -8355111495472569868
+    second: "Sprite-Chap\xE9uzinhoIdle_11"
+  - first:
+      213: 2844357741410330080
+    second: "Sprite-Chap\xE9uzinhoIdle_12"
+  - first:
+      213: 1206686614541039868
+    second: "Sprite-Chap\xE9uzinhoIdle_13"
+  - first:
+      213: -2678066770642588498
+    second: "Sprite-Chap\xE9uzinhoIdle_14"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -108,19 +138,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -130,7 +147,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
+        width: 41
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -140,8 +157,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2727e168b05fa8c44b021f3bd28899b4
-      internalID: 739733512
+      spriteID: 7b4a569abb79ca54f9ad2f82a87b76e6
+      internalID: -788632471
       vertices: []
       indices: 
       edges: []
@@ -150,9 +167,9 @@ TextureImporter:
       name: LittleRed_Idle_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 41
         y: 0
-        width: 64
+        width: 41
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -162,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acc8e141fc8043945abfee6cf692445b
-      internalID: -1818037261
+      spriteID: 294d8e5d9da510241819302e9ead4eeb
+      internalID: 739576055
       vertices: []
       indices: 
       edges: []
@@ -172,9 +189,9 @@ TextureImporter:
       name: LittleRed_Idle_2
       rect:
         serializedVersion: 2
-        x: 128
+        x: 82
         y: 0
-        width: 64
+        width: 41
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -184,8 +201,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adf593470c49a8d439b285d97d4fdb43
-      internalID: 1708317106
+      spriteID: f658e3c24b975254c8a55518048cdb4d
+      internalID: 1207995
       vertices: []
       indices: 
       edges: []
@@ -194,9 +211,9 @@ TextureImporter:
       name: LittleRed_Idle_3
       rect:
         serializedVersion: 2
-        x: 192
+        x: 123
         y: 0
-        width: 64
+        width: 41
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -206,8 +223,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f2ef676f87e70449a05aa5f4c45a812
-      internalID: -779247926
+      spriteID: 8fadcaadaf0b8d44f8b02ded620a0d3c
+      internalID: -41490601
       vertices: []
       indices: 
       edges: []
@@ -216,9 +233,9 @@ TextureImporter:
       name: LittleRed_Idle_4
       rect:
         serializedVersion: 2
-        x: 256
+        x: 164
         y: 0
-        width: 64
+        width: 41
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -228,8 +245,228 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc95078c89d084344b0bcfe395041c52
-      internalID: -969084150
+      spriteID: e5f30263546675d4c873e76654a0ef06
+      internalID: -1697441430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleRed_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fd8a926f70047489d9ea6805614c47
+      internalID: -1924295961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleRed_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 0
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681a6596d75568b449f17147b0233e43
+      internalID: -1189705812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleRed_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 0
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6ec018367344145b0870cf1462d48d
+      internalID: 757450331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleRed_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 0
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21031dbc62ee7634e88f80b2f522da54
+      internalID: 602309877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleRed_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 0
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6848d2677548841b7ddd136d24f2a3
+      internalID: -1482399626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleRed_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 0
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43934bea34ce9554499df606333dcfc0
+      internalID: 1975568976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleRed_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 0
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4ac10273ce25c4d8c44cb65a4e7874
+      internalID: 502903727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleRed_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 0
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60805c43b21f6464696b9c3be186805c
+      internalID: 1683136341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleRed_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 0
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92b648ae5bbd174cab948f77d3f5700
+      internalID: 1847170518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleRed_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 0
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb62e4dbeb30f145ba153418973913d
+      internalID: 278289454
       vertices: []
       indices: 
       edges: []
@@ -238,7 +475,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6b8aa34746d19094c8b3b616aa5b0bf9
+    spriteID: 0f6fd3007e6814e4087e147f2c59dc68
     internalID: 0
     vertices: []
     indices: 
@@ -248,13 +485,23 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":36.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":15.0,"y":1.0},"gridSpriteSize":{"x":41.0,"y":36.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      LittleRed_Idle_0: 739733512
-      LittleRed_Idle_1: -1818037261
-      LittleRed_Idle_2: 1708317106
-      LittleRed_Idle_3: -779247926
-      LittleRed_Idle_4: -969084150
+      LittleRed_Idle_0: -788632471
+      LittleRed_Idle_1: 739576055
+      LittleRed_Idle_10: 1975568976
+      LittleRed_Idle_11: 502903727
+      LittleRed_Idle_12: 1683136341
+      LittleRed_Idle_13: 1847170518
+      LittleRed_Idle_14: 278289454
+      LittleRed_Idle_2: 1207995
+      LittleRed_Idle_3: -41490601
+      LittleRed_Idle_4: -1697441430
+      LittleRed_Idle_5: -1924295961
+      LittleRed_Idle_6: -1189705812
+      LittleRed_Idle_7: 757450331
+      LittleRed_Idle_8: 602309877
+      LittleRed_Idle_9: -1482399626
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

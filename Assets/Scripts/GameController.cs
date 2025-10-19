@@ -15,7 +15,7 @@ public class GameController : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            SceneManager.LoadScene("Principal", LoadSceneMode.Additive);
+            if(!SceneManager.GetSceneByName("Principal").isLoaded) SceneManager.LoadScene("Principal", LoadSceneMode.Additive);
             DontDestroyOnLoad(gameObject); // Mantém o objeto entre as cenas
         }
         else

@@ -6,7 +6,7 @@ public class HealthSystem : MonoBehaviour
 {
     [Header("Health")]
     private float health; 
-    [SerializeField] private float maxHealth = 20f;
+    [SerializeField] private float maxHealth = 3f;
     public bool canDie = true, canTakeDamage = true, isAlive = true;
     public AttributesSystem attributes;
 

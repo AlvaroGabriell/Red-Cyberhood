@@ -1,13 +1,22 @@
 using UnityEngine;
 
-public class EnemyBehaviour : MonoBehaviour
+public class HazardBehaviour : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            if (collision.gameObject.GetComponent<HealthSystem>().canTakeDamage == true) collision.gameObject.transform.position = Vector3.zero;
-            //collision.GetComponent<HealthSystem>().TakeDamage(1);
+            if (gameObject.CompareTag("Enemy"))
+            {
+                collision.GetComponent<HealthSystem>().TakeDamage(1);
+                collision.gameObject.transform.position = Vector3.zero;
+                return;
+            }
+            if (!collision.gameObject.GetComponent<PlayerController>().isInvulnerable)
+            {
+                collision.GetComponent<HealthSystem>().TakeDamage(1);
+                collision.gameObject.transform.position = Vector3.zero;
+            }
         }
     }
 
@@ -15,8 +24,17 @@ public class EnemyBehaviour : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            if (collision.gameObject.GetComponent<HealthSystem>().canTakeDamage == true) collision.gameObject.transform.position = Vector3.zero;
-            //collision.GetComponent<HealthSystem>().TakeDamage(1);
+            if (gameObject.CompareTag("Enemy"))
+            {
+                collision.GetComponent<HealthSystem>().TakeDamage(1);
+                collision.gameObject.transform.position = Vector3.zero;
+                return;
+            }
+            if (!collision.gameObject.GetComponent<PlayerController>().isInvulnerable)
+            {
+                collision.GetComponent<HealthSystem>().TakeDamage(1);
+                collision.gameObject.transform.position = Vector3.zero;
+            }
         }
     }
 }

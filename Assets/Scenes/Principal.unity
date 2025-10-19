@@ -140,6 +140,8 @@ GameObject:
   - component: {fileID: 55627291}
   - component: {fileID: 55627290}
   - component: {fileID: 55627293}
+  - component: {fileID: 55627295}
+  - component: {fileID: 55627294}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -382,12 +384,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 739733512, guid: 30022c4c90d0f7348a36ec9d30e7a4c3, type: 3}
+  m_Sprite: {fileID: 2081812908, guid: 204661b5c835c474f8c95760ed587a51, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.36, y: 3.85}
+  m_Size: {x: 1.7777778, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -420,7 +422,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 039e4ac52487c19448b4418e95f16e8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  moveSpeed: 5
+  dashSpeedMultiplier: 2
+  playerDashInfluence: 0.3
+  dashDuration: 0.3
+  isInvulnerable: 0
 --- !u!61 &55627291
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -455,17 +460,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.07357454, y: -0.38074797}
+  m_Offset: {x: -0.011280924, y: -0.38074797}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1.7777778, y: 1}
-    newSize: {x: 3.36, y: 3.85}
+    newSize: {x: 1.7777778, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.25260252, y: 0.23850402}
+  m_Size: {x: 0.31369847, y: 0.23850405}
   m_EdgeRadius: 0
 --- !u!50 &55627292
 Rigidbody2D:
@@ -506,6 +511,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b2ad169e0d28874dba1c11ad04bc4c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SFXAnimPlayer
+--- !u!114 &55627294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55627285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa98f210fdb09ab40a358a27a6e872fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AttributesSystem
+  maxHealth:
+    baseValue: 3
+    modifier: 1
+  moveSpeed:
+    baseValue: 7
+    modifier: 1
+  dashSpeed:
+    baseValue: 2
+    modifier: 1
+  attackDamage:
+    baseValue: 1
+    modifier: 1
+--- !u!114 &55627295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55627285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957473e2963f61e4491df15744d74f55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealthSystem
+  canDie: 1
+  canTakeDamage: 1
+  isAlive: 1
+  damageSFX: 
+  deathSFX: 
 --- !u!1001 &90345290
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22337,7 +22383,7 @@ CompositeCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
+  m_GeometryType: 1
   m_GenerationType: 0
   m_EdgeRadius: 0
   m_ColliderPaths: []
@@ -25448,7 +25494,7 @@ GameObject:
   - component: {fileID: 724191182}
   - component: {fileID: 724191181}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: Grid Past
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26319,7 +26365,7 @@ CompositeCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
+  m_GeometryType: 1
   m_GenerationType: 0
   m_EdgeRadius: 0
   m_ColliderPaths:
@@ -53799,7 +53845,7 @@ GameObject:
   - component: {fileID: 2141106992}
   - component: {fileID: 2141106991}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: Grid Future
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

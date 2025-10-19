@@ -16,8 +16,9 @@ public class PlayerController : MonoBehaviour
     private AttributesSystem attributes;
 
     private Vector2 movement = Vector2.zero, lastDirection = Vector2.zero;
-    public float dashSpeedMultiplier = 2f, dashDuration = 0.3f;
-    private bool isMoving = false, isDashing = false;
+    public float dashSpeedMultiplier = 2f, playerDashInfluence = 0.3f, dashDuration = 0.3f;
+    private bool isMoving = false, isDashing = false; 
+    public bool isInvulnerable = false;
 
     void Start()
     {
@@ -50,7 +51,9 @@ public class PlayerController : MonoBehaviour
     {
         if (isDashing)
         {
-            Vector2 dashVelocity = attributes.dashSpeed.FinalValue * attributes.moveSpeed.FinalValue * lastDirection.normalized;
+            Vector2 playerInfluence = movement.normalized * playerDashInfluence;
+            Vector2 finalDirection = (lastDirection.normalized + playerInfluence).normalized;
+            Vector2 dashVelocity = attributes.dashSpeed.FinalValue * attributes.moveSpeed.FinalValue * finalDirection;
             rb.linearVelocity = dashVelocity;
             return;
         }
@@ -101,16 +104,16 @@ public class PlayerController : MonoBehaviour
         if (lastDirection == Vector2.zero) yield break;
 
         isDashing = true;
-        healthSystem.canTakeDamage = false;
+        isInvulnerable = true;
         animator.SetTrigger("dash");
 
-        movement = Vector2.zero;
+        //movement = Vector2.zero;
 
         yield return new WaitForSeconds(dashDuration);
 
         isDashing = false;
         rb.linearVelocity = Vector2.zero;
         yield return new WaitForSeconds(0.1f);
-        healthSystem.canTakeDamage = true;
+        isInvulnerable = false;
     }
 }

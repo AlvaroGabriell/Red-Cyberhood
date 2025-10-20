@@ -43,14 +43,14 @@ public class HealthSystem : MonoBehaviour
 
         health = Mathf.Max(health - pDamage, 0);
 
-        if (!string.IsNullOrEmpty(damageSFX)) SFXManager.Play(damageSFX);
+        if (!string.IsNullOrEmpty(damageSFX)) SFXManager.Instance.Play(damageSFX);
 
         if (ShouldDie() && canDie == true) Die();
     }
 
     private void Die()
     {
-        if (!string.IsNullOrEmpty(deathSFX)) SFXManager.Play(deathSFX);
+        if (!string.IsNullOrEmpty(deathSFX)) SFXManager.Instance.Play(deathSFX);
 
         Destroy(gameObject);
     }

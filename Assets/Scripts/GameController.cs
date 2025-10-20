@@ -48,6 +48,7 @@ public class GameController : MonoBehaviour
         player.GetComponent<PlayerInput>().actions.FindActionMap("Player").Disable();
         UIController.Instance.MainMenuBackground.SetActive(true);
         UIController.Instance.OpenMenu(UIController.Instance.MainMenu);
+        MusicManager.Instance.PlayMusic(true, "MainMenu");
     }
 
     public void PauseGame()

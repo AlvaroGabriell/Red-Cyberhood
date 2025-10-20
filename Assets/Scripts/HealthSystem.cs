@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class HealthSystem : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class HealthSystem : MonoBehaviour
     private float maxHealth = 3f;
     public bool canDie = true, canTakeDamage = true, isAlive = true;
     [NonSerialized] public AttributesSystem attributes;
+    private GameObject player;
 
     [Header("SFX")]
     public string damageSFX;
@@ -18,6 +20,7 @@ public class HealthSystem : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        player = gameObject;
         if (gameObject.GetComponent<AttributesSystem>() != null) SetMaxHealthAndFullHeal(gameObject.GetComponent<AttributesSystem>().maxHealth.FinalValue);
         else health = maxHealth;
     }
@@ -52,7 +55,8 @@ public class HealthSystem : MonoBehaviour
     {
         if (!string.IsNullOrEmpty(deathSFX)) SFXManager.Instance.Play(deathSFX);
 
-        Destroy(gameObject);
+        UIController.Instance.OpenMenu(UIController.Instance.DefeatMenu);
+        player.GetComponent<PlayerInput>().actions.FindActionMap("Player").Disable();
     }
 
     public void HealHealth(float pHealing)

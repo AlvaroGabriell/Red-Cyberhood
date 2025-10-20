@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7784719241945712919}
   - component: {fileID: 573009773130858857}
   - component: {fileID: -4939571999231620325}
+  - component: {fileID: 4296764257512650918}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -103,7 +104,7 @@ Animator:
   m_GameObject: {fileID: 724944589660230676}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ed06a2cfdc01edd44a5cf345b7fcaf09, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -173,3 +174,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbe2c2eaa55948745a643e03f28a46be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyBehaviour
+--- !u!114 &4296764257512650918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724944589660230676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b1a4e960694a843a60933fc55fa0a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CyberwolfIdleRandomizer

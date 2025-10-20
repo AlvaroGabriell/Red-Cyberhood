@@ -11,7 +11,7 @@ public class UIController : MonoBehaviour
     public static UIController Instance;
     [Header("References")]
     private GameObject player;
-    public GameObject MainMenuBackground, MainMenu, SettingsMenu, PauseMenu, DefeatMenu, VictoryMenu, CreditsMenu;
+    public GameObject MainMenuBackground, CinematicMenu, MainMenu, SettingsMenu, PauseMenu, DefeatMenu, VictoryMenu, CreditsMenu, TutorialMenu;
 
     private Stack<GameObject> menuStack = new();
 
@@ -20,6 +20,9 @@ public class UIController : MonoBehaviour
     public Button controlsSubmenuButton;
     private Button currentSelectedSubmenuButton;
     public GameObject AudioSubmenu, ControlsSubmenu;
+
+    private bool tutorialShowed = false;
+    public bool hideTutorial = false;
 
     void Awake()
     {
@@ -38,6 +41,15 @@ public class UIController : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+    }
+
+    void Update()
+    {
+        if (hideTutorial && !tutorialShowed)
+        {
+            tutorialShowed = true;
+            StartCoroutine(HideTutorial());
+        }
     }
 
     public GameObject GetPlayer()
@@ -82,10 +94,7 @@ public class UIController : MonoBehaviour
 
     public void OnPlay()
     {
-        MainMenuBackground.SetActive(false);
-        CloseCurrentMenu();
-        GetPlayer().GetComponent<PlayerInput>().actions.FindActionMap("Player").Enable();
-        MusicManager.Instance.PlayMusic(true, "GameplayFuture");
+        StartCoroutine(StartGame());
     }
     public void OnSettings()
     {
@@ -93,8 +102,8 @@ public class UIController : MonoBehaviour
         OpenMenu(SettingsMenu);
         foreach (Slider slider in SettingsMenu.GetComponentsInChildren<Slider>())
         {
-            if (slider.name == "MusicSlider") MusicManager.Instance.AttachSlider(slider);
-            if (slider.name == "SFXSlider") SFXManager.Instance.AttachSlider(slider);
+            if (slider.gameObject.name == "MusicSlider") MusicManager.Instance.AttachSlider(slider);
+            if (slider.gameObject.name == "SFXSlider") SFXManager.Instance.AttachSlider(slider);
         }
     }
     public void OnPause()
@@ -140,6 +149,7 @@ public class UIController : MonoBehaviour
 
     private IEnumerator ReloadScene()
     {
+        MusicManager.Instance.StopAllAudioSources();
         yield return SceneManager.UnloadSceneAsync("Principal");
 
         var load = SceneManager.LoadSceneAsync("Principal", LoadSceneMode.Additive);
@@ -147,6 +157,26 @@ public class UIController : MonoBehaviour
 
         CloseAllMenus();
         GameController.Instance.StartGame();
+    }
+
+    private IEnumerator HideTutorial()
+    {
+        yield return new WaitForSeconds(5);
+
+        TutorialMenu.SetActive(false);
+    }
+
+    private IEnumerator StartGame()
+    {
+        CinematicMenu.SetActive(true);
+        yield return new WaitForSeconds(0.2f);
+        CinematicMenu.SetActive(false);
+        yield return new WaitForSeconds(0.2f);
+        MainMenuBackground.SetActive(false);
+        CloseCurrentMenu();
+        TutorialMenu.SetActive(true);
+        GetPlayer().GetComponent<PlayerInput>().actions.FindActionMap("Player").Enable();
+        MusicManager.Instance.PlayGameplayMusic();
     }
     
     // ----------------- Settings Menu -----------------

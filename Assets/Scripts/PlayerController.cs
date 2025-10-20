@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
 
     private Vector2 movement = Vector2.zero, lastDirection = Vector2.zero;
     public float dashSpeedMultiplier = 2f, playerDashInfluence = 0.3f, dashDuration = 0.3f, timeTravelCooldown = 3f, lastTimeTravel = -1;
-    private bool isMoving = false, isDashing = false; 
+    private bool isMoving = false, isDashing = false, moved = false; 
     public bool isInvulnerable = false;
 
     void Start()
@@ -65,6 +65,11 @@ public class PlayerController : MonoBehaviour
     //Captura o input de movimento
     public void OnMove(InputAction.CallbackContext context)
     {
+        if(moved == false)
+        {
+            UIController.Instance.hideTutorial = true;
+            moved = true;
+        }
         movement = context.ReadValue<Vector2>();
     }
 
@@ -112,6 +117,7 @@ public class PlayerController : MonoBehaviour
         isDashing = true;
         isInvulnerable = true;
         animator.SetTrigger("dash");
+        SFXManager.Instance.Play("Dash");
 
         //movement = Vector2.zero;
 
@@ -126,5 +132,6 @@ public class PlayerController : MonoBehaviour
     private void PerformTimeTravel()
     {
         scenarioManager.SwitchScenarios();
+        MusicManager.Instance.SwitchGameplayMusic();
     }
 }

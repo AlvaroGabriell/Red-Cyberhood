@@ -38,11 +38,11 @@ public class MusicManager : MonoBehaviour
 
     }
 
-    public void PlayMusic(bool resetSong, String musicName = null)
+    public void PlayMusic(bool resetSong, string musicName = null)
     {
         if (musicName != null)
         {
-            audioSourceDefault.clip = musicLibrary.GetRandomClip(name);
+            audioSourceDefault.clip = musicLibrary.GetRandomClip(musicName);
         }
         if (audioSourceDefault.clip != null)
         {
@@ -56,8 +56,13 @@ public class MusicManager : MonoBehaviour
 
     public void PlayGameplayMusic()
     {
+        audioSourceDefault.Stop();
+        audioSourceFuture.Stop();
+        audioSourcePast.Stop();
         audioSourceFuture.clip = musicLibrary.GetRandomClip("GameplayFuture");
         audioSourcePast.clip = musicLibrary.GetRandomClip("GameplayPast");
+        audioSourceFuture.mute = false;
+        audioSourcePast.mute = true;
         audioSourceFuture.Play();
         audioSourcePast.Play();
 
@@ -66,12 +71,13 @@ public class MusicManager : MonoBehaviour
 
     public void SwitchGameplayMusic()
     {
-        if(activeTimeMusic == audioSourceFuture)
+        if (activeTimeMusic == audioSourceFuture)
         {
             activeTimeMusic = audioSourcePast;
             audioSourceFuture.mute = true;
             audioSourcePast.mute = false;
-        } else
+        }
+        else
         {
             activeTimeMusic = audioSourceFuture;
             audioSourceFuture.mute = false;
@@ -79,9 +85,18 @@ public class MusicManager : MonoBehaviour
         }
     }
     
+    public void StopAllAudioSources()
+    {
+        audioSourceDefault.Stop();
+        audioSourceFuture.Stop();
+        audioSourcePast.Stop();
+    }
+    
     public void SetVolume(float volume)
     {
         audioSourceDefault.volume = volume;
+        audioSourceFuture.volume = volume;
+        audioSourcePast.volume = volume;
     }
 
     public void AttachSlider(Slider slider)

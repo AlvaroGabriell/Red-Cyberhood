@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Hazard
+  - ScenarioManager
   layers:
   - Default
   - TransparentFX

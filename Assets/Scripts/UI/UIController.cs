@@ -85,6 +85,7 @@ public class UIController : MonoBehaviour
         MainMenuBackground.SetActive(false);
         CloseCurrentMenu();
         GetPlayer().GetComponent<PlayerInput>().actions.FindActionMap("Player").Enable();
+        MusicManager.Instance.PlayMusic(true, "GameplayFuture");
     }
     public void OnSettings()
     {
@@ -92,7 +93,7 @@ public class UIController : MonoBehaviour
         OpenMenu(SettingsMenu);
         foreach (Slider slider in SettingsMenu.GetComponentsInChildren<Slider>())
         {
-            // TODO: //if (slider.name == "MusicSlider") MusicManager.Instance.AttachSlider(slider);
+            if (slider.name == "MusicSlider") MusicManager.Instance.AttachSlider(slider);
             if (slider.name == "SFXSlider") SFXManager.Instance.AttachSlider(slider);
         }
     }

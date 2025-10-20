@@ -7,7 +7,7 @@ public class SFXManager : MonoBehaviour
 {
     public static SFXManager Instance;
 
-    private static AudioSource audioSource;
+    private AudioSource audioSource;
     private static SFXLibrary sfxLibrary;
     [SerializeField] private Slider sfxSlider;
 
@@ -26,7 +26,7 @@ public class SFXManager : MonoBehaviour
         }
     }
 
-    public static void Play(string soundName)
+    public void Play(string soundName)
     {
         AudioClip audioClip = sfxLibrary.GetRandomClip(soundName);
         if (audioClip != null) audioSource.PlayOneShot(audioClip);
@@ -37,7 +37,7 @@ public class SFXManager : MonoBehaviour
         AudioClip audioClip = sfxLibrary.GetRandomClip(soundName);
         if (audioClip != null) substitute.PlayOneShot(audioClip);
     }
-    public static void SetVolume(float volume)
+    public void SetVolume(float volume)
     {
         audioSource.volume = volume;
     }

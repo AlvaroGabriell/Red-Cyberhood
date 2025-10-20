@@ -4,6 +4,6 @@ public class AnimSFXPlayer : MonoBehaviour
 {
     public void PlaySFX(string sfxName)
     {
-        SFXManager.Play(sfxName);
+        SFXManager.Instance.Play(sfxName);
     }
 }

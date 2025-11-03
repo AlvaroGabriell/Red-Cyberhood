@@ -44,5 +44,8 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: LivingBeings
+    uniqueID: 1123261007
+    locked: 0
   m_RenderingLayers:
   - Default

@@ -25,17 +25,12 @@ public class MusicManager : MonoBehaviour
             Destroy(gameObject); // Garante que apenas uma instância exista
         }
     }
-    
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        audioSourceDefault.volume = 0.5f;
+        audioSourceFuture.volume = 0.5f;
+        audioSourcePast.volume = 0.5f;
     }
 
     public void PlayMusic(bool resetSong, string musicName = null)
@@ -106,7 +101,7 @@ public class MusicManager : MonoBehaviour
             musicSlider = slider;
             musicSlider.onValueChanged.RemoveAllListeners();
             musicSlider.onValueChanged.AddListener(delegate { SetVolume(musicSlider.value); });
-            musicSlider.value = audioSourceDefault.volume;
+            SetVolume(musicSlider.value);
         }
     }
 

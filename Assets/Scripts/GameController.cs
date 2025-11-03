@@ -46,6 +46,7 @@ public class GameController : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player");
         player.GetComponent<PlayerInput>().actions.FindActionMap("Player").Disable();
+        player.GetComponent<PlayerInput>().SwitchCurrentControlScheme("Keyboard&Mouse", Keyboard.current, Mouse.current);
         UIController.Instance.MainMenuBackground.SetActive(true);
         UIController.Instance.OpenMenu(UIController.Instance.MainMenu);
         MusicManager.Instance.PlayMusic(true, "MainMenu");

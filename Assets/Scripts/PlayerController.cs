@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(HealthSystem))]
 [RequireComponent(typeof(AttributesSystem))]
+[RequireComponent(typeof(PlayerInput))]
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rb;
@@ -103,11 +104,6 @@ public class PlayerController : MonoBehaviour
     public void OnThrowBomb(InputAction.CallbackContext context)
     {
         // No implemented yet
-    }
-
-    public void OnEscapeButton(InputAction.CallbackContext context)
-    {
-        UIController.Instance.HandleEscape();
     }
 
     private IEnumerator PerformDash()

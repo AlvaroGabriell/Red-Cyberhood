@@ -26,6 +26,11 @@ public class SFXManager : MonoBehaviour
         }
     }
 
+    void Start()
+    {
+        audioSource.volume = 0.5f;
+    }
+
     public void Play(string soundName)
     {
         AudioClip audioClip = sfxLibrary.GetRandomClip(soundName);
@@ -49,7 +54,7 @@ public class SFXManager : MonoBehaviour
             sfxSlider = slider;
             sfxSlider.onValueChanged.RemoveAllListeners();
             sfxSlider.onValueChanged.AddListener(delegate { SetVolume(sfxSlider.value); });
-            sfxSlider.value = audioSource.volume;
+            SetVolume(sfxSlider.value);
         }
     }
 
